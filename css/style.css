@@ -1,0 +1,93 @@
+body,html {
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.row {
+    margin-bottom: 15px;
+}
+    
+.row [class^="col-"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#np{
+    transition: all .2s;
+    animation: fade-in-move 2s;
+}
+
+#p1{
+    transition: all .2s;
+    animation: move-from-left-to-right 2s;
+}
+
+#p2{
+    transition: all .2s;
+    animation: move-from-right-to-left 2s;
+}
+
+.nav-btn{
+    opacity: 1;
+    transition: all .2s;
+    animation: fade-in 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+.nav-btn:hover{
+    text-decoration: underline;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+    }
+    20% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in-move {
+	0% {
+		opacity: 0;
+        padding-bottom: 100px;
+    }
+    20% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
+}
+
+@keyframes move-from-left-to-right {
+	0% {
+		opacity: 0;
+        padding-right: 100px;
+    }
+    20% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
+}
+
+@keyframes move-from-right-to-left {
+	0% {
+		opacity: 0;
+        padding-left: 100px;
+    }
+    20% {
+		opacity: 0;
+	}
+    100% {
+		opacity: 1;
+	}
+}
