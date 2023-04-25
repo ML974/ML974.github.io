@@ -6,7 +6,7 @@
 
 */
 
-var amountScrolled = 200;
+var amountScrolled = 5;
 var amountScrolledNav = 25;
 
 $(window).scroll(function() {
