@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO Mathieu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bouton_flottant.css">
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-dark bg-dark text-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Où souhaitez-vous aller ? </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-dark text-dark">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../#header">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../#description">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../#parcours">Mon parcours</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../#realisations">Mes réalisations</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Veilles
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../technologique">Technologique</a></li>
+                    <li><a class="dropdown-item" href="../juridique">Juridique</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="d-flex align-items-center flex-column justify-content-center h-100 bg-dark text-white" id="header">
+        <h1 id="np"> Le BTS SIO </h1> <br>
+        <h3> <span id="p1"> C'est </span> <span id="p2"> quoi ?</span> </h3>
+        <h5 id="np"> <a href="#description">Allons-y!</a> </h5>
+        <!--
+        <div class="row mt-5 align-items-center text-center">
+            <div class="col-md-4 nav-btn">
+                <a href="#stages"> <h3> CV et stages </h3> </a>
+            </div>
+            <div class="col-md-4 nav-btn">
+                <h3> Mes productions </h3>
+            </div>
+            <div class="col-md-4 nav-btn">
+                <h3> Mon parcours </h3>
+            </div>
+            <div class="col-md-12 nav-btn">
+                <h3> Veilles technologiques </h3>
+            </div>
+        </div>
+        -->
+    </div>
+    <!--<nav id="navbar-main" class="navbar navbar-expand-lg navbar-light bg-light align-items-center justify-content-center">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#stages">CV et stages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mes productions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mon parcours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Veilles technologiques</a>
+            </li>
+          </ul>
+    </nav>
+-->
+    <div class="container bg-dark text-light">
+      <div class="d-flex flex-column h-100 bg-dark text-white" id="description">
+        <h1 class="text-center"> Brevet Technicien Supérieur,  </h1> <br>
+        <div class="row text-center">
+          <div class="col-md-12 bg-light text-dark rounded-3 mb-5">
+            <p> <b> Le BTS Services informatiques aux Organisations est un diplôme reconnu par l’état de niveau Bac+2. Il remplace, depuis septembre 2011, l’ancien BTS informatique de Gestion (BTS IG). <br>
+              En effet, cette nouvelle formule répond aux attentes de la profession en matière de qualification. Le programme a évolué en fonction de la place et du rôle des TIC (Technologies d’Information Communication) et propose deux spécialités bien distinctes : le BTS SIO SISR et le BTS SIO SLAM.<br>
+              Il associe aux enseignements théoriques et professionnels (en contrôle continu et final) deux stages en entreprise (10 à 11 semaines réparties en première année et en deuxième année d’études), en formation initiale. <br>             
+              En plus des matières en lien avec l’ingénierie informatique, la formation diplômante propose également des enseignements de culture générale, d’anglais (avec la possibilité de continuer une LV2), de mathématiques appliquées à l’informatique, ainsi que sur les outils d’analyse économique, managériale et juridique des services informatiques. <br>
+              De plus, au cours de cette formation, il est possible de bénéficier d’un enseignement approfondi en mathématiques et de travailler en autonomie en laboratoire informatique. <br>
+            </b></p>
+          </div>
+          <h1 class="text-center mb-5"> Les spécialités du BTS SIO  </h1> <br>
+          <div class="col-md-5 bg-light text-dark rounded-3 mb-5">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#slammodal">
+              <h4> SLAM </h4>
+            </button>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5 bg-light text-dark rounded-3 mb-5">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sisrmodal">
+              <h4> SISR </h4>
+            </button>
+        </div>
+      
+        <h3 class="text-center mb-5"> <a class="" href="https://diplomeo.com/trouver-bts-sio" target="_blank" rel="noopener noreferrer"> En savoir plus, Source : Diplomeo </a> </h3>
+
+
+        <!-- SLAM -->
+        <div class="modal fade" id="slammodal" tabindex="-1" aria-labelledby="slammodalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content text-dark">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="slammodalLabel"> Solutions logicielles et applications métiers </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                L’option Solutions logicielles et applications métiers forme des spécialistes des logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration au sein de la société).
+                Les techniciens supérieurs en informatique option slam, sont préparés aux métiers de
+                <ul class="list-group">
+                  <li class="list-group-item"> Développeur d’applications informatiques </li>
+                  <li class="list-group-item"> Développeur informatique </li>
+                  <li class="list-group-item"> Analyste d’applications ou d’études </li>
+                  <li class="list-group-item"> Analyste programmeur </li>
+                  <li class="list-group-item"> Chargé d’études informatiques </li>
+                  <li class="list-group-item"> Informaticien d’études </li>
+                  <li class="list-group-item"> Programmeur analyste </li>
+                  <li class="list-group-item"> Programmeur d’applications </li>
+                  <li class="list-group-item"> Responsable des services applicatifs </li>
+                  <li class="list-group-item"> Technicien d’études informatiques </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SISR -->
+        <div class="modal fade" id="sisrmodal" tabindex="-1" aria-labelledby="sisrmodalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content text-dark">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="sisrmodalLabel"> Solutions d’infrastructure, systèmes et réseaux </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                L’option Solutions d’infrastructure, systèmes et réseaux forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité). En sortant d’un BTS SIO SISR, vous serez capables de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.
+
+                Les techniciens supérieurs en informatique option SISR, peuvent accéder aux métiers de :
+                <ul class="list-group">
+                  <li class="list-group-item"> Administrateur systèmes et réseaux, </li>
+                  <li class="list-group-item"> Informaticien support et déploiement, </li>
+                  <li class="list-group-item"> Pilote d’exploitation, </li>
+                  <li class="list-group-item"> Support systèmes et réseaux, </li>
+                  <li class="list-group-item"> Technicien d’infrastructure, </li>
+                  <li class="list-group-item"> Technicien de production, </li>
+                  <li class="list-group-item"> Technicien micro et réseaux. </li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="bouton_flottant navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/js.js"></script>
+</body>
+</html>
