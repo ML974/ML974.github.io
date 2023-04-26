@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO Mathieu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="css/bouton_flottant.css">
 </head>
 <body class="bg-dark">
@@ -40,8 +40,8 @@
                     Veilles
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/technologique">Technologique</a></li>
-                    <li><a class="dropdown-item" href="/juridique">Juridique</a></li>
+                    <li><a class="dropdown-item" href="../technologique">Technologique</a></li>
+                    <li><a class="dropdown-item" href="../juridique">Juridique</a></li>
                   </ul>
                 </li>
               </ul>
@@ -51,6 +51,7 @@
       </nav>
     <div class="d-flex align-items-center flex-column justify-content-center h-100 bg-dark text-white" id="header">
         <h1 id="np"> Mon profil </h1> <br>
+        <h3 id="np"> <a href="#competences"> Commençons avec mes compétences </a> </h3>
         <!--
         <div class="row mt-5 align-items-center text-center">
             <div class="col-md-4 nav-btn">
@@ -85,24 +86,77 @@
           </ul>
     </nav>
 -->
-    <div class="container bg-dark text-light align-items-center justify-content-center">
-        <div class="row">
-            <div class="col-md-5 bg-light text-dark rounded-3 mb-3">
-                photo
+    <div class="container bg-dark text-light">
+      <div class="d-flex flex-column h-100 bg-dark text-white" id="competences">
+        <h1 class="text-center"> Mes compétences </h1> <br>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h3 class="text-center bg-light text-dark rounded-3 p-2"> Développement WEB </h3> <br>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> HTML </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-5 bg-light text-dark rounded-3 mb-3">
-                <h4> Envoyez moi un mail !</h4>
-                <h4> LikedIn</h4>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> PHP </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> CSS </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> JavaScript </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12 bg-light text-dark rounded-3 mb-3 text-center">
-                <h4> Mon CV </h4>
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h3 class="text-center bg-light text-dark rounded-3 p-2"> Développement Applications </h3> <br>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> Kotlin </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> Python </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col-md-3 bg-light text-dark rounded-3 m-1">
+            <h2> Java </h2>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
         </div>
-
+        <h3 class="text-center mb-5"> <a href="#coordonnees"> Mes coordonnées </a> </h3>
+      </div>
+      <div class="d-flex flex-column h-100 bg-dark text-white" id="coordonnees">
+        <h1 class="text-center"> Mes coordonnées </h1> <br>
+        <div class="row text-center">
+          <div class="col-md-12 bg-light text-dark rounded-3 m-1">
+            <h2 class="mb-4">
+              <button type="button" class="btn btn-lg coord-btn">
+                  <img class="fit-picture" src="img/enveloppe.png" alt="logo mail" height="30" width="30">
+                  <a class="text-reset" href="mailto:lebeau.jeanmathieu@gmail.com"> <b> Envoyez un mail </b> </a>
+              </button>
+            </h2>
+          </div>
+        </div>
+      </div>
+      
     </div>
     <button class="bouton_flottant navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> </button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
