@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bouton_flottant.css">
 </head>
 <body>
+
     <nav class="navbar navbar-dark bg-dark text-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -55,7 +56,7 @@
     <div class="d-flex align-items-center flex-column justify-content-center h-100 bg-dark text-white" id="header">
         <h1 id="np"> Mathieu LEBEAU </h1> <br>
         <h5> <span id="p1"> Étudiant en </span>  <span id="p2"> <u> BTS SIO </u> </span> </h5>
-        <a href="#description"> C'est parti ! </a>
+        <h3 id="np"> <a href="#description"> C'est parti ! </a> </h3>
         <!--
         <div class="row mt-5 align-items-center text-center">
             <div class="col-md-4 nav-btn">
@@ -96,11 +97,13 @@
                 <h3> Qui suis-je ? </h3>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center" id="stages">
+                <div class="col-md-12 text-center mb-5">
                     <h4> Je suis Mathieu Lebeau, un jeune passionné en informatique <br>
                         et actuellement en BTS SIO, spécialité SLAM. </h4>
-                        <a href="#parcours"> Mon parcours </a>
                 </div>
+                <div class="col-md-12 text-center">
+                  <h3> <a href="#parcours"> Mon parcours </a> </h3>
+              </div>
             </div>
         </div>
     </div>
@@ -113,16 +116,15 @@
                 </div>
             </div>
             <div class="row justify-content-center align-items-center mb-5">
-                    <div class="col-md-12 text-center">
-                        <h3> Formations </h3>
-                    </div>
                     <div class="col-md-5 text-center bg-light text-dark rounded-3" id="stages">
-                        <h4> 1ère et terminale STI2D,
-                            Option SIN </h4>
+                        <h4> 1ère et terminale STI2D, Option SIN </h4>
+                        <p> Lycée Paul Moreau, Bras-Panon </p>
                     </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-5 text-center bg-light text-dark rounded-3" id="stages">
                         <h4> BTS SIO, spécialité SLAM </h4>
+                        <p> Lycée Nelson Mandela, Bras-Fusil </p>
+                        <a href="btssio"> En savoir plus sur ce BTS </a>
                     </div>
             </div>
 
@@ -135,7 +137,7 @@
                         <p> Du 6 juin 2021 au 7 juillet 2021 </p>
                         <p> Poste : Développeur</p>
                         <p> J'ai réalisé un site qui répertorie <br> toutes les formations du numérique sur l'île de la Réunion</p>
-                        <p> <a href="formation-numerique"> Voir plus... </a> </p>
+                        <!--<p> <a href="formation-numerique"> Voir plus... </a> </p>-->
                     </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-5 text-center bg-light text-dark rounded-3" id="stages">
@@ -143,13 +145,13 @@
                         <p> Du 24 janvier 2022 au 6 mars 2022 </p>
                         <p> Poste: Développeur</p>
                         <p> J'ai réalisé un site vitrine pour <br> une auto-école</p>
-                        <p> <a href="autoecole/"> Voir plus... </a> </p>
+                        <!--<p> <a href="autoecole/"> Voir plus... </a> </p>-->
                     </div>
             </div>
 
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-12 text-center">
-                    <a href="#realisations"> Mes réalisations </a>
+                    <h3> <a href="#realisations"> Mes réalisations </a> </h3>
                 </div>
             </div>
         </div>
@@ -159,13 +161,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mb-5" id="realisations">
-                    <h3> Mon réalisations </h3>
+                    <h3> Mes réalisations </h3>
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-5 text-center bg-light text-dark rounded-3 mb-5">
                     <h4> Mandela Shop </h4>
-                    <p> Un site qui permet à la boutique <br> du lycée Nelson Mandela de vendre leur produit </p>
-                    <p> En savoir plus...</p>
+                    <p> Un site qui permet à la boutique <br> du lycée Nelson Mandela de vendre ses produits </p>
                     </div>
 
                     <div class="col-md-2 text-centerr" id="stages"></div>
@@ -177,7 +178,7 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-5 text-center bg-light text-dark rounded-3">
                     <h4> Formations numériques </h4>
-                    <p> Un site qui vous donne toutes <br> les formations dans le numérique <br> disponible sur l'île de la Réunion. </p>
+                    <p> Un site qui vous donne toutes <br> les formations dans le numérique <br> disponibles sur l'île de la Réunion. </p>
                     <p> <a href="formation-numerique"> Voir plus... </a> </p>
                     </div>
 
@@ -185,14 +186,14 @@
 
                     <div class="col-md-5 text-center bg-light text-dark rounded-3">
                         <h4> AUTOCOD' </h4>
-                        <p> Un site vitrine pour <br> l'auto-école AUTOCOD' qui leur <br> permettra d'afficher leur tarif. </p>
+                        <p> Un site vitrine pour <br> l'auto-école AUTOCOD' qui leur <br> permettra d'afficher leurs tarifs. </p>
                         <p> <a href="autoecole"> Voir plus... </a> </p>
                         </div>
                 </div>
 
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-12 text-center">
-                        <a href="profil"> Souhaitez-vous me contacter ?</a>
+                        <h3> <a href="profil"> Visitez mon profil ! </a> </h3>
                     </div>
                 </div>
             </div>
@@ -203,5 +204,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/js.js"></script>
+    <script src="js/bg.js"></script>
 </body>
 </html>
